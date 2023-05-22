@@ -1,0 +1,11 @@
+D:\IT\Desktop\Win_QLNH\Win_QLNH\bin\Debug\Win_QLNH.exe.config
+D:\IT\Desktop\Win_QLNH\Win_QLNH\bin\Debug\Win_QLNH.exe
+D:\IT\Desktop\Win_QLNH\Win_QLNH\bin\Debug\Win_QLNH.pdb
+D:\IT\Desktop\Win_QLNH\Win_QLNH\obj\Debug\Win_QLNH.csproj.AssemblyReference.cache
+D:\IT\Desktop\Win_QLNH\Win_QLNH\obj\Debug\Win_QLNH.csproj.SuggestedBindingRedirects.cache
+D:\IT\Desktop\Win_QLNH\Win_QLNH\obj\Debug\Win_QLNH.Form1.resources
+D:\IT\Desktop\Win_QLNH\Win_QLNH\obj\Debug\Win_QLNH.Properties.Resources.resources
+D:\IT\Desktop\Win_QLNH\Win_QLNH\obj\Debug\Win_QLNH.csproj.GenerateResource.cache
+D:\IT\Desktop\Win_QLNH\Win_QLNH\obj\Debug\Win_QLNH.csproj.CoreCompileInputs.cache
+D:\IT\Desktop\Win_QLNH\Win_QLNH\obj\Debug\Win_QLNH.exe
+D:\IT\Desktop\Win_QLNH\Win_QLNH\obj\Debug\Win_QLNH.pdb

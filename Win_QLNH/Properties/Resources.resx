@@ -136,13 +136,16 @@
   <data name="Phieu doanh thu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Phieu doanh thu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="nền (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nền (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="QLNV" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\QLNV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Nhap hang" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nhap hang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="nền (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nền (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="More" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\More.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

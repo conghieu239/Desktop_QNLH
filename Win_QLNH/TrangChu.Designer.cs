@@ -67,7 +67,7 @@
             this.btnKhac.FlatAppearance.BorderSize = 0;
             this.btnKhac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKhac.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnKhac.Image = global::Win_QLNH.Properties.Resources.TrangChu;
+            this.btnKhac.Image = global::Win_QLNH.Properties.Resources.More;
             this.btnKhac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnKhac.Location = new System.Drawing.Point(0, 448);
             this.btnKhac.Name = "btnKhac";
@@ -78,6 +78,7 @@
             this.btnKhac.Text = "   Khác";
             this.btnKhac.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnKhac.UseVisualStyleBackColor = false;
+            this.btnKhac.Click += new System.EventHandler(this.btnKhac_Click);
             // 
             // btnPhieuNhapHang
             // 
@@ -96,6 +97,7 @@
             this.btnPhieuNhapHang.Text = "   Phiếu nhập hàng";
             this.btnPhieuNhapHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPhieuNhapHang.UseVisualStyleBackColor = false;
+            this.btnPhieuNhapHang.Click += new System.EventHandler(this.btnPhieuNhapHang_Click);
             // 
             // btnPhieuDoanhThu
             // 
@@ -114,6 +116,7 @@
             this.btnPhieuDoanhThu.Text = "   Phiếu doanh thu";
             this.btnPhieuDoanhThu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPhieuDoanhThu.UseVisualStyleBackColor = false;
+            this.btnPhieuDoanhThu.Click += new System.EventHandler(this.btnPhieuDoanhThu_Click);
             // 
             // btnOrder
             // 
@@ -132,6 +135,7 @@
             this.btnOrder.Text = "   Order đồ ăn";
             this.btnOrder.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnOrder.UseVisualStyleBackColor = false;
+            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
             // 
             // btnPXH
             // 
@@ -150,6 +154,7 @@
             this.btnPXH.Text = "   Phiếu xuất hàng";
             this.btnPXH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnPXH.UseVisualStyleBackColor = false;
+            this.btnPXH.Click += new System.EventHandler(this.btnPXH_Click);
             // 
             // btnQLNV
             // 
@@ -168,6 +173,7 @@
             this.btnQLNV.Text = "   Quản lý nhân viên";
             this.btnQLNV.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnQLNV.UseVisualStyleBackColor = false;
+            this.btnQLNV.Click += new System.EventHandler(this.btnQLNV_Click);
             // 
             // btnLTKH
             // 
@@ -186,6 +192,7 @@
             this.btnLTKH.Text = "   Lập thẻ khách hàng\r\n";
             this.btnLTKH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnLTKH.UseVisualStyleBackColor = false;
+            this.btnLTKH.Click += new System.EventHandler(this.btnLTKH_Click);
             // 
             // btnTrangChu
             // 
@@ -204,6 +211,7 @@
             this.btnTrangChu.Text = "   Trang chủ";
             this.btnTrangChu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnTrangChu.UseVisualStyleBackColor = false;
+            this.btnTrangChu.Click += new System.EventHandler(this.btnTrangChu_Click);
             // 
             // panelLogo
             // 

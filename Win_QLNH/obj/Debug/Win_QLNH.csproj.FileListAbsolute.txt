@@ -14,3 +14,5 @@ D:\IT\Desktop\Win_QLNH\Win_QLNH\bin\Debug\DTOQLNH.dll
 D:\IT\Desktop\Win_QLNH\Win_QLNH\bin\Debug\BLLQLNH.pdb
 D:\IT\Desktop\Win_QLNH\Win_QLNH\bin\Debug\DTOQLNH.pdb
 D:\IT\Desktop\Win_QLNH\Win_QLNH\obj\Debug\Win_QLNH.csproj.CopyComplete
+D:\IT\Desktop\Win_QLNH\Win_QLNH\obj\Debug\Win_QLNH.FormOrder.resources
+D:\IT\Desktop\Win_QLNH\Win_QLNH\obj\Debug\Win_QLNH.Forms.Form1.resources

@@ -114,5 +114,11 @@
       <Name>DTOQLNH</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Form\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nền %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

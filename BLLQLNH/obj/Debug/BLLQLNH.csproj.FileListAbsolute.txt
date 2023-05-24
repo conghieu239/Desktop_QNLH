@@ -1,0 +1,11 @@
+D:\IT\Desktop\Win_QLNH\BLLQLNH\bin\Debug\BLLQLNH.dll
+D:\IT\Desktop\Win_QLNH\BLLQLNH\bin\Debug\BLLQLNH.pdb
+D:\IT\Desktop\Win_QLNH\BLLQLNH\bin\Debug\DALQLNH.dll
+D:\IT\Desktop\Win_QLNH\BLLQLNH\bin\Debug\DTOQLNH.dll
+D:\IT\Desktop\Win_QLNH\BLLQLNH\bin\Debug\DALQLNH.pdb
+D:\IT\Desktop\Win_QLNH\BLLQLNH\bin\Debug\DTOQLNH.pdb
+D:\IT\Desktop\Win_QLNH\BLLQLNH\obj\Debug\BLLQLNH.csproj.AssemblyReference.cache
+D:\IT\Desktop\Win_QLNH\BLLQLNH\obj\Debug\BLLQLNH.csproj.CoreCompileInputs.cache
+D:\IT\Desktop\Win_QLNH\BLLQLNH\obj\Debug\BLLQLNH.csproj.CopyComplete
+D:\IT\Desktop\Win_QLNH\BLLQLNH\obj\Debug\BLLQLNH.dll
+D:\IT\Desktop\Win_QLNH\BLLQLNH\obj\Debug\BLLQLNH.pdb

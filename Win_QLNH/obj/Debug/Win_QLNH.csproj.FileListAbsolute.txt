@@ -9,3 +9,8 @@ D:\IT\Desktop\Win_QLNH\Win_QLNH\obj\Debug\Win_QLNH.csproj.CoreCompileInputs.cach
 D:\IT\Desktop\Win_QLNH\Win_QLNH\obj\Debug\Win_QLNH.exe
 D:\IT\Desktop\Win_QLNH\Win_QLNH\obj\Debug\Win_QLNH.pdb
 D:\IT\Desktop\Win_QLNH\Win_QLNH\obj\Debug\Win_QLNH.TrangChu.resources
+D:\IT\Desktop\Win_QLNH\Win_QLNH\bin\Debug\BLLQLNH.dll
+D:\IT\Desktop\Win_QLNH\Win_QLNH\bin\Debug\DTOQLNH.dll
+D:\IT\Desktop\Win_QLNH\Win_QLNH\bin\Debug\BLLQLNH.pdb
+D:\IT\Desktop\Win_QLNH\Win_QLNH\bin\Debug\DTOQLNH.pdb
+D:\IT\Desktop\Win_QLNH\Win_QLNH\obj\Debug\Win_QLNH.csproj.CopyComplete

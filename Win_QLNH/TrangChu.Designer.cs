@@ -38,6 +38,7 @@
             this.btnLTKH = new System.Windows.Forms.Button();
             this.btnTrangChu = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.panelMenu = new System.Windows.Forms.Panel();
             this.panelTrangChu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -214,11 +215,21 @@
             this.panelLogo.Size = new System.Drawing.Size(200, 98);
             this.panelLogo.TabIndex = 1;
             // 
+            // panelMenu
+            // 
+            this.panelMenu.BackgroundImage = global::Win_QLNH.Properties.Resources.nền__1_;
+            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelMenu.Location = new System.Drawing.Point(218, 0);
+            this.panelMenu.Name = "panelMenu";
+            this.panelMenu.Size = new System.Drawing.Size(714, 594);
+            this.panelMenu.TabIndex = 1;
+            // 
             // TrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(932, 594);
+            this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.panelTrangChu);
             this.Name = "TrangChu";
             this.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
@@ -240,6 +251,7 @@
         private System.Windows.Forms.Button btnPXH;
         private System.Windows.Forms.Button btnQLNV;
         private System.Windows.Forms.Button btnLTKH;
+        private System.Windows.Forms.Panel panelMenu;
     }
 }
 

@@ -1,0 +1,6 @@
+D:\IT\Desktop\Win_QLNH\DTOQLNH\bin\Debug\DTOQLNH.dll
+D:\IT\Desktop\Win_QLNH\DTOQLNH\bin\Debug\DTOQLNH.pdb
+D:\IT\Desktop\Win_QLNH\DTOQLNH\obj\Debug\DTOQLNH.csproj.AssemblyReference.cache
+D:\IT\Desktop\Win_QLNH\DTOQLNH\obj\Debug\DTOQLNH.csproj.CoreCompileInputs.cache
+D:\IT\Desktop\Win_QLNH\DTOQLNH\obj\Debug\DTOQLNH.dll
+D:\IT\Desktop\Win_QLNH\DTOQLNH\obj\Debug\DTOQLNH.pdb

@@ -1,6 +1,6 @@
 ﻿namespace Win_QLNH
 {
-    partial class Form1
+    partial class TrangChu
     {
         /// <summary>
         /// Required designer variable.
@@ -214,13 +214,13 @@
             this.panelLogo.Size = new System.Drawing.Size(200, 98);
             this.panelLogo.TabIndex = 1;
             // 
-            // Form1
+            // TrangChu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(932, 594);
             this.Controls.Add(this.panelTrangChu);
-            this.Name = "Form1";
+            this.Name = "TrangChu";
             this.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
             this.Text = "Form1";
             this.panelTrangChu.ResumeLayout(false);

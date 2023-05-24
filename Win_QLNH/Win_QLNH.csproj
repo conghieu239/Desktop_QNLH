@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="TrangChu.Designer.cs">
+      <DependentUpon>TrangChu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="TrangChu.resx">
+      <DependentUpon>TrangChu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -103,6 +103,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Nhap hang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLLQLNH\BLLQLNH.csproj">
+      <Project>{cd33158f-b618-4038-b30c-c3ec5f57b12c}</Project>
+      <Name>BLLQLNH</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTOQLNH\DTOQLNH.csproj">
+      <Project>{2513b4a7-1358-4b3c-80e1-634979e6003c}</Project>
+      <Name>DTOQLNH</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

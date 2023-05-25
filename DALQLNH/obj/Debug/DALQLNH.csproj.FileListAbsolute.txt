@@ -7,3 +7,12 @@ D:\IT\Desktop\Win_QLNH\DALQLNH\obj\Debug\DALQLNH.csproj.CoreCompileInputs.cache
 D:\IT\Desktop\Win_QLNH\DALQLNH\obj\Debug\DALQLNH.csproj.CopyComplete
 D:\IT\Desktop\Win_QLNH\DALQLNH\obj\Debug\DALQLNH.dll
 D:\IT\Desktop\Win_QLNH\DALQLNH\obj\Debug\DALQLNH.pdb
+C:\Users\Admin\Desktop\newQLNH\DALQLNH\bin\Debug\DALQLNH.dll
+C:\Users\Admin\Desktop\newQLNH\DALQLNH\bin\Debug\DALQLNH.pdb
+C:\Users\Admin\Desktop\newQLNH\DALQLNH\bin\Debug\DTOQLNH.dll
+C:\Users\Admin\Desktop\newQLNH\DALQLNH\bin\Debug\DTOQLNH.pdb
+C:\Users\Admin\Desktop\newQLNH\DALQLNH\obj\Debug\DALQLNH.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\newQLNH\DALQLNH\obj\Debug\DALQLNH.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\newQLNH\DALQLNH\obj\Debug\DALQLNH.csproj.CopyComplete
+C:\Users\Admin\Desktop\newQLNH\DALQLNH\obj\Debug\DALQLNH.dll
+C:\Users\Admin\Desktop\newQLNH\DALQLNH\obj\Debug\DALQLNH.pdb

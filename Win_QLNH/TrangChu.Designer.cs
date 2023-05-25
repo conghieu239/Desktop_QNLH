@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panelTrangChu = new System.Windows.Forms.Panel();
+            this.panelMenu = new System.Windows.Forms.Panel();
             this.btnKhac = new System.Windows.Forms.Button();
             this.btnPhieuNhapHang = new System.Windows.Forms.Button();
             this.btnPhieuDoanhThu = new System.Windows.Forms.Button();
@@ -38,7 +39,6 @@
             this.btnLTKH = new System.Windows.Forms.Button();
             this.btnTrangChu = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
-            this.panelMenu = new System.Windows.Forms.Panel();
             this.panelTrangChu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,10 +55,21 @@
             this.panelTrangChu.Controls.Add(this.btnTrangChu);
             this.panelTrangChu.Controls.Add(this.panelLogo);
             this.panelTrangChu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelTrangChu.Location = new System.Drawing.Point(12, 0);
+            this.panelTrangChu.Location = new System.Drawing.Point(16, 0);
+            this.panelTrangChu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelTrangChu.Name = "panelTrangChu";
-            this.panelTrangChu.Size = new System.Drawing.Size(200, 594);
+            this.panelTrangChu.Size = new System.Drawing.Size(267, 731);
             this.panelTrangChu.TabIndex = 0;
+            // 
+            // panelMenu
+            // 
+            this.panelMenu.BackgroundImage = global::Win_QLNH.Properties.Resources.nền__1_;
+            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panelMenu.Location = new System.Drawing.Point(282, 0);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(4);
+            this.panelMenu.Name = "panelMenu";
+            this.panelMenu.Size = new System.Drawing.Size(961, 731);
+            this.panelMenu.TabIndex = 1;
             // 
             // btnKhac
             // 
@@ -69,11 +80,12 @@
             this.btnKhac.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnKhac.Image = global::Win_QLNH.Properties.Resources.More;
             this.btnKhac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKhac.Location = new System.Drawing.Point(0, 448);
+            this.btnKhac.Location = new System.Drawing.Point(0, 555);
+            this.btnKhac.Margin = new System.Windows.Forms.Padding(4);
             this.btnKhac.Name = "btnKhac";
-            this.btnKhac.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.btnKhac.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
             this.btnKhac.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnKhac.Size = new System.Drawing.Size(200, 50);
+            this.btnKhac.Size = new System.Drawing.Size(267, 62);
             this.btnKhac.TabIndex = 8;
             this.btnKhac.Text = "   Khác";
             this.btnKhac.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -89,10 +101,11 @@
             this.btnPhieuNhapHang.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnPhieuNhapHang.Image = global::Win_QLNH.Properties.Resources.Nhap_hang;
             this.btnPhieuNhapHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPhieuNhapHang.Location = new System.Drawing.Point(0, 398);
+            this.btnPhieuNhapHang.Location = new System.Drawing.Point(0, 493);
+            this.btnPhieuNhapHang.Margin = new System.Windows.Forms.Padding(4);
             this.btnPhieuNhapHang.Name = "btnPhieuNhapHang";
-            this.btnPhieuNhapHang.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnPhieuNhapHang.Size = new System.Drawing.Size(200, 50);
+            this.btnPhieuNhapHang.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnPhieuNhapHang.Size = new System.Drawing.Size(267, 62);
             this.btnPhieuNhapHang.TabIndex = 7;
             this.btnPhieuNhapHang.Text = "   Phiếu nhập hàng";
             this.btnPhieuNhapHang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -108,10 +121,11 @@
             this.btnPhieuDoanhThu.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnPhieuDoanhThu.Image = global::Win_QLNH.Properties.Resources.Phieu_doanh_thu;
             this.btnPhieuDoanhThu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPhieuDoanhThu.Location = new System.Drawing.Point(0, 348);
+            this.btnPhieuDoanhThu.Location = new System.Drawing.Point(0, 431);
+            this.btnPhieuDoanhThu.Margin = new System.Windows.Forms.Padding(4);
             this.btnPhieuDoanhThu.Name = "btnPhieuDoanhThu";
-            this.btnPhieuDoanhThu.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnPhieuDoanhThu.Size = new System.Drawing.Size(200, 50);
+            this.btnPhieuDoanhThu.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnPhieuDoanhThu.Size = new System.Drawing.Size(267, 62);
             this.btnPhieuDoanhThu.TabIndex = 6;
             this.btnPhieuDoanhThu.Text = "   Phiếu doanh thu";
             this.btnPhieuDoanhThu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -127,10 +141,11 @@
             this.btnOrder.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnOrder.Image = global::Win_QLNH.Properties.Resources.Order;
             this.btnOrder.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnOrder.Location = new System.Drawing.Point(0, 298);
+            this.btnOrder.Location = new System.Drawing.Point(0, 369);
+            this.btnOrder.Margin = new System.Windows.Forms.Padding(4);
             this.btnOrder.Name = "btnOrder";
-            this.btnOrder.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnOrder.Size = new System.Drawing.Size(200, 50);
+            this.btnOrder.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnOrder.Size = new System.Drawing.Size(267, 62);
             this.btnOrder.TabIndex = 5;
             this.btnOrder.Text = "   Order đồ ăn";
             this.btnOrder.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -146,10 +161,11 @@
             this.btnPXH.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnPXH.Image = global::Win_QLNH.Properties.Resources.Xuat_hang;
             this.btnPXH.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPXH.Location = new System.Drawing.Point(0, 248);
+            this.btnPXH.Location = new System.Drawing.Point(0, 307);
+            this.btnPXH.Margin = new System.Windows.Forms.Padding(4);
             this.btnPXH.Name = "btnPXH";
-            this.btnPXH.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnPXH.Size = new System.Drawing.Size(200, 50);
+            this.btnPXH.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnPXH.Size = new System.Drawing.Size(267, 62);
             this.btnPXH.TabIndex = 4;
             this.btnPXH.Text = "   Phiếu xuất hàng";
             this.btnPXH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -165,10 +181,11 @@
             this.btnQLNV.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnQLNV.Image = global::Win_QLNH.Properties.Resources.QLNV;
             this.btnQLNV.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQLNV.Location = new System.Drawing.Point(0, 198);
+            this.btnQLNV.Location = new System.Drawing.Point(0, 245);
+            this.btnQLNV.Margin = new System.Windows.Forms.Padding(4);
             this.btnQLNV.Name = "btnQLNV";
-            this.btnQLNV.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnQLNV.Size = new System.Drawing.Size(200, 50);
+            this.btnQLNV.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnQLNV.Size = new System.Drawing.Size(267, 62);
             this.btnQLNV.TabIndex = 3;
             this.btnQLNV.Text = "   Quản lý nhân viên";
             this.btnQLNV.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -184,10 +201,11 @@
             this.btnLTKH.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnLTKH.Image = global::Win_QLNH.Properties.Resources.The_KH;
             this.btnLTKH.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLTKH.Location = new System.Drawing.Point(0, 148);
+            this.btnLTKH.Location = new System.Drawing.Point(0, 183);
+            this.btnLTKH.Margin = new System.Windows.Forms.Padding(4);
             this.btnLTKH.Name = "btnLTKH";
-            this.btnLTKH.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnLTKH.Size = new System.Drawing.Size(200, 50);
+            this.btnLTKH.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnLTKH.Size = new System.Drawing.Size(267, 62);
             this.btnLTKH.TabIndex = 2;
             this.btnLTKH.Text = "   Lập thẻ khách hàng\r\n";
             this.btnLTKH.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -203,10 +221,11 @@
             this.btnTrangChu.ForeColor = System.Drawing.Color.Gainsboro;
             this.btnTrangChu.Image = global::Win_QLNH.Properties.Resources.TrangChu;
             this.btnTrangChu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTrangChu.Location = new System.Drawing.Point(0, 98);
+            this.btnTrangChu.Location = new System.Drawing.Point(0, 121);
+            this.btnTrangChu.Margin = new System.Windows.Forms.Padding(4);
             this.btnTrangChu.Name = "btnTrangChu";
-            this.btnTrangChu.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.btnTrangChu.Size = new System.Drawing.Size(200, 50);
+            this.btnTrangChu.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.btnTrangChu.Size = new System.Drawing.Size(267, 62);
             this.btnTrangChu.TabIndex = 1;
             this.btnTrangChu.Text = "   Trang chủ";
             this.btnTrangChu.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -219,28 +238,22 @@
             this.panelLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(4);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(200, 98);
+            this.panelLogo.Size = new System.Drawing.Size(267, 121);
             this.panelLogo.TabIndex = 1;
-            // 
-            // panelMenu
-            // 
-            this.panelMenu.BackgroundImage = global::Win_QLNH.Properties.Resources.nền__1_;
-            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelMenu.Location = new System.Drawing.Point(218, 0);
-            this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(714, 594);
-            this.panelMenu.TabIndex = 1;
             // 
             // TrangChu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(932, 594);
+            this.ClientSize = new System.Drawing.Size(1243, 731);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.panelTrangChu);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TrangChu";
-            this.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.Padding = new System.Windows.Forms.Padding(16, 0, 0, 0);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panelTrangChu.ResumeLayout(false);
             this.ResumeLayout(false);

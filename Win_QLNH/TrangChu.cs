@@ -42,12 +42,12 @@ namespace Win_QLNH
 
         private void btnLTKH_Click(object sender, EventArgs e)
         {
-
+       
         }
 
         private void btnQLNV_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new Forms.FormQLNV(), sender);
         }
 
         private void btnOrder_Click(object sender, EventArgs e)

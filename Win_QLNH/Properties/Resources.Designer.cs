@@ -143,6 +143,16 @@ namespace Win_QLNH.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Thêm__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Thêm (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap TrangChu {
             get {
                 object obj = ResourceManager.GetObject("TrangChu", resourceCulture);

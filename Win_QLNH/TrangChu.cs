@@ -36,7 +36,7 @@ namespace Win_QLNH
         }
         private void btnTrangChu_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new Forms.FormTrangChu(), sender);
         }
 
 

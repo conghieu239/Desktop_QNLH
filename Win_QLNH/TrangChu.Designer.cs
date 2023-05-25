@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TrangChu));
             this.panelTrangChu = new System.Windows.Forms.Panel();
             this.btnKhac = new System.Windows.Forms.Button();
             this.btnPhieuNhapHang = new System.Windows.Forms.Button();
@@ -239,9 +240,10 @@
             this.ClientSize = new System.Drawing.Size(932, 594);
             this.Controls.Add(this.panelMenu);
             this.Controls.Add(this.panelTrangChu);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TrangChu";
             this.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
-            this.Text = "Form1";
+            this.Text = "Un Matin";
             this.panelTrangChu.ResumeLayout(false);
             this.ResumeLayout(false);
 

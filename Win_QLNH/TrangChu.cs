@@ -19,7 +19,7 @@ namespace Win_QLNH
             InitializeComponent();
         }
 
-        private void OpenChildForm(Form childForm, object btnSender)
+        public void OpenChildForm(Form childForm, object btnSender)
         {
             if (activeForm != null)
             {
@@ -34,15 +34,35 @@ namespace Win_QLNH
             childForm.BringToFront();
             childForm.Show();
         }
+        public void OpenChildFormWBut(Form childForm, Button btn)
+        {
+            if (activeForm != null)
+            {
+                activeForm.Close();
+            }
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            this.panelMenu.Controls.Add(childForm);
+            this.panelMenu.Tag = childForm;
+            if (childForm is Forms.FormDatMon formDatMon)
+            {
+                formDatMon.SetButton(btn);
+            }
+            childForm.BringToFront();
+            childForm.Show();
+        }
         private void btnTrangChu_Click(object sender, EventArgs e)
         {
+            OpenChildForm(new Forms.FormTrangChu(), sender);
 
         }
 
 
         private void btnLTKH_Click(object sender, EventArgs e)
         {
-       
+            OpenChildForm(new Forms.FormQLKH(), sender);
         }
 
         private void btnQLNV_Click(object sender, EventArgs e)
@@ -57,23 +77,27 @@ namespace Win_QLNH
 
         private void btnPXH_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new Forms.FormPXH(), sender);
         }
 
         private void btnPhieuDoanhThu_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new Forms.FormBC(), sender);
         }
 
         private void btnPhieuNhapHang_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new Forms.FormPNH(), sender);
         }
 
-        private void btnKhac_Click(object sender, EventArgs e)
+        private void btnQuydinh_Click(object sender, EventArgs e)
         {
-
+            OpenChildForm(new Forms.FormQuyDinh(), sender);
         }
 
+        private void btnKhuyenmai_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.FormKhuyenMai(), sender);
+        }
     }
 }

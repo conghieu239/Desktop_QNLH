@@ -9,6 +9,6 @@ namespace DALQLNH
 {
     public class DBconn
     {
-        protected SqlConnection conn = new SqlConnection(@"Data Source=ADMIN\SQLEXPRESS;Initial Catalog=QLNV;Integrated Security=True");
+        protected SqlConnection conn = new SqlConnection(@"Data Source=ADMIN\SQLEXPRESS;Initial Catalog=QUANLYNHAHANG2;Integrated Security=True");
     }
 }

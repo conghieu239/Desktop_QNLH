@@ -46,11 +46,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Forms\FormAddBC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddBC.Designer.cs">
+      <DependentUpon>FormAddBC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormAddNV.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormAddNV.Designer.cs">
       <DependentUpon>FormAddNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAddPNH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddPNH.Designer.cs">
+      <DependentUpon>FormAddPNH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAddXH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAddXH.Designer.cs">
+      <DependentUpon>FormAddXH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormBC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBC.Designer.cs">
+      <DependentUpon>FormBC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormChonChucNangOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormChonChucNangOrder.Designer.cs">
+      <DependentUpon>FormChonChucNangOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDatMon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDatMon.Designer.cs">
+      <DependentUpon>FormDatMon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormKhuyenMai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormKhuyenMai.Designer.cs">
+      <DependentUpon>FormKhuyenMai.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormOrder.cs">
       <SubType>Form</SubType>
@@ -58,17 +101,77 @@
     <Compile Include="Forms\FormOrder.Designer.cs">
       <DependentUpon>FormOrder.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormPNH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPNH.Designer.cs">
+      <DependentUpon>FormPNH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormQLKH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormQLKH.Designer.cs">
+      <DependentUpon>FormQLKH.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormQLNV.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormQLNV.Designer.cs">
       <DependentUpon>FormQLNV.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormQuyDinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormQuyDinh.Designer.cs">
+      <DependentUpon>FormQuyDinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSuaThongTinKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSuaThongTinKhachHang.Designer.cs">
+      <DependentUpon>FormSuaThongTinKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormThemTheKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormThemTheKhachHang.Designer.cs">
+      <DependentUpon>FormThemTheKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTrangChu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTrangChu.Designer.cs">
+      <DependentUpon>FormTrangChu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUpdateBC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUpdateBC.Designer.cs">
+      <DependentUpon>FormUpdateBC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormUpdateNV.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormUpdateNV.Designer.cs">
       <DependentUpon>FormUpdateNV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUpdatePNH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUpdatePNH.Designer.cs">
+      <DependentUpon>FormUpdatePNH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUpdateXH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUpdateXH.Designer.cs">
+      <DependentUpon>FormUpdateXH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormPXH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPXH.Designer.cs">
+      <DependentUpon>FormPXH.cs</DependentUpon>
     </Compile>
     <Compile Include="TrangChu.cs">
       <SubType>Form</SubType>
@@ -78,14 +181,68 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FormAddBC.resx">
+      <DependentUpon>FormAddBC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormAddNV.resx">
       <DependentUpon>FormAddNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddPNH.resx">
+      <DependentUpon>FormAddPNH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAddXH.resx">
+      <DependentUpon>FormAddXH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBC.resx">
+      <DependentUpon>FormBC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormChonChucNangOrder.resx">
+      <DependentUpon>FormChonChucNangOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDatMon.resx">
+      <DependentUpon>FormDatMon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormKhuyenMai.resx">
+      <DependentUpon>FormKhuyenMai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormOrder.resx">
+      <DependentUpon>FormOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPNH.resx">
+      <DependentUpon>FormPNH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPXH.resx">
+      <DependentUpon>FormPXH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormQLKH.resx">
+      <DependentUpon>FormQLKH.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormQLNV.resx">
       <DependentUpon>FormQLNV.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormQuyDinh.resx">
+      <DependentUpon>FormQuyDinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSuaThongTinKhachHang.resx">
+      <DependentUpon>FormSuaThongTinKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormThemTheKhachHang.resx">
+      <DependentUpon>FormThemTheKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTrangChu.resx">
+      <DependentUpon>FormTrangChu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUpdateBC.resx">
+      <DependentUpon>FormUpdateBC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormUpdateNV.resx">
       <DependentUpon>FormUpdateNV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUpdatePNH.resx">
+      <DependentUpon>FormUpdatePNH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUpdateXH.resx">
+      <DependentUpon>FormUpdateXH.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TrangChu.resx">
       <DependentUpon>TrangChu.cs</DependentUpon>
@@ -155,6 +312,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\More.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quy Dinh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Khuyen mai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

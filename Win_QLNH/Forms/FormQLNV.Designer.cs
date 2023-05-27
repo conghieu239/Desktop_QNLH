@@ -45,12 +45,12 @@
             this.dtg_QLNV.BackgroundColor = System.Drawing.Color.White;
             this.dtg_QLNV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtg_QLNV.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dtg_QLNV.Location = new System.Drawing.Point(0, 95);
+            this.dtg_QLNV.Location = new System.Drawing.Point(0, 121);
             this.dtg_QLNV.Name = "dtg_QLNV";
             this.dtg_QLNV.RowHeadersWidth = 51;
             this.dtg_QLNV.RowTemplate.Height = 24;
             this.dtg_QLNV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtg_QLNV.Size = new System.Drawing.Size(800, 207);
+            this.dtg_QLNV.Size = new System.Drawing.Size(724, 172);
             this.dtg_QLNV.TabIndex = 5;
             this.dtg_QLNV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtg_QLNV_CellContentClick);
             // 
@@ -62,7 +62,7 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(800, 95);
+            this.label1.Size = new System.Drawing.Size(724, 121);
             this.label1.TabIndex = 4;
             this.label1.Text = "QUẢN LÝ NHÂN VIÊN";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -74,9 +74,9 @@
             this.panel1.Controls.Add(this.bt_them);
             this.panel1.Controls.Add(this.bt_xem);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 302);
+            this.panel1.Location = new System.Drawing.Point(0, 293);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 148);
+            this.panel1.Size = new System.Drawing.Size(724, 148);
             this.panel1.TabIndex = 3;
             // 
             // bt_xoa
@@ -89,7 +89,7 @@
             this.bt_xoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_xoa.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_xoa.ForeColor = System.Drawing.Color.White;
-            this.bt_xoa.Location = new System.Drawing.Point(634, 51);
+            this.bt_xoa.Location = new System.Drawing.Point(596, 51);
             this.bt_xoa.Name = "bt_xoa";
             this.bt_xoa.Size = new System.Drawing.Size(90, 40);
             this.bt_xoa.TabIndex = 3;
@@ -107,7 +107,7 @@
             this.bt_sua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_sua.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_sua.ForeColor = System.Drawing.Color.White;
-            this.bt_sua.Location = new System.Drawing.Point(453, 51);
+            this.bt_sua.Location = new System.Drawing.Point(415, 51);
             this.bt_sua.Name = "bt_sua";
             this.bt_sua.Size = new System.Drawing.Size(90, 40);
             this.bt_sua.TabIndex = 2;
@@ -125,7 +125,7 @@
             this.bt_them.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_them.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_them.ForeColor = System.Drawing.Color.White;
-            this.bt_them.Location = new System.Drawing.Point(267, 51);
+            this.bt_them.Location = new System.Drawing.Point(229, 51);
             this.bt_them.Name = "bt_them";
             this.bt_them.Size = new System.Drawing.Size(90, 40);
             this.bt_them.TabIndex = 1;
@@ -143,7 +143,7 @@
             this.bt_xem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bt_xem.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_xem.ForeColor = System.Drawing.Color.White;
-            this.bt_xem.Location = new System.Drawing.Point(92, 51);
+            this.bt_xem.Location = new System.Drawing.Point(54, 51);
             this.bt_xem.Name = "bt_xem";
             this.bt_xem.Size = new System.Drawing.Size(90, 40);
             this.bt_xem.TabIndex = 0;
@@ -155,11 +155,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(724, 441);
             this.Controls.Add(this.dtg_QLNV);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Name = "FormQLNV";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormQLNV";
             ((System.ComponentModel.ISupportInitialize)(this.dtg_QLNV)).EndInit();
             this.panel1.ResumeLayout(false);

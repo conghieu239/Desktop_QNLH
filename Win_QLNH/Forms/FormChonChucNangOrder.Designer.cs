@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormChonChucNangOrder));
             this.btnChonBan = new System.Windows.Forms.Button();
             this.btnDatBan = new System.Windows.Forms.Button();
             this.btnXemMon = new System.Windows.Forms.Button();
@@ -42,7 +43,7 @@
             this.btnChonBan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChonBan.ForeColor = System.Drawing.Color.White;
             this.btnChonBan.Location = new System.Drawing.Point(139, 68);
-            this.btnChonBan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnChonBan.Margin = new System.Windows.Forms.Padding(4);
             this.btnChonBan.Name = "btnChonBan";
             this.btnChonBan.Size = new System.Drawing.Size(221, 49);
             this.btnChonBan.TabIndex = 0;
@@ -58,7 +59,7 @@
             this.btnDatBan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDatBan.ForeColor = System.Drawing.Color.White;
             this.btnDatBan.Location = new System.Drawing.Point(139, 158);
-            this.btnDatBan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDatBan.Margin = new System.Windows.Forms.Padding(4);
             this.btnDatBan.Name = "btnDatBan";
             this.btnDatBan.Size = new System.Drawing.Size(221, 48);
             this.btnDatBan.TabIndex = 1;
@@ -74,7 +75,7 @@
             this.btnXemMon.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXemMon.ForeColor = System.Drawing.Color.White;
             this.btnXemMon.Location = new System.Drawing.Point(139, 255);
-            this.btnXemMon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXemMon.Margin = new System.Windows.Forms.Padding(4);
             this.btnXemMon.Name = "btnXemMon";
             this.btnXemMon.Size = new System.Drawing.Size(221, 48);
             this.btnXemMon.TabIndex = 2;
@@ -90,7 +91,7 @@
             this.btnXacNhan.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXacNhan.ForeColor = System.Drawing.Color.White;
             this.btnXacNhan.Location = new System.Drawing.Point(139, 352);
-            this.btnXacNhan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXacNhan.Margin = new System.Windows.Forms.Padding(4);
             this.btnXacNhan.Name = "btnXacNhan";
             this.btnXacNhan.Size = new System.Drawing.Size(221, 48);
             this.btnXacNhan.TabIndex = 4;
@@ -107,7 +108,8 @@
             this.Controls.Add(this.btnXemMon);
             this.Controls.Add(this.btnDatBan);
             this.Controls.Add(this.btnChonBan);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormChonChucNangOrder";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormChonChucNangOrder";

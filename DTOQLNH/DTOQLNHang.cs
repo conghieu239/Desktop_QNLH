@@ -242,5 +242,18 @@ namespace DTOQLNH
         public string Tmakh { get => tmakh; set => tmakh = value; }
         public string Key_addkh { get => key_addkh; set => key_addkh = value; }
     }
+    public class DTOTaiKhoan
+    {
+        private string tendangnhap;
+        private string mkdangnhap;
+        public string Tendangnghap { get; set; }
+        public string Mkdangnhap { get; set; }
+        public DTOTaiKhoan(string tendangnghap, string mkdangnhap)
+        {
+            this.Tendangnghap = tendangnghap;
+            this.Mkdangnhap = mkdangnhap;
+        }
+        public DTOTaiKhoan() { }
+    }
 }
 

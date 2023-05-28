@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSuaThongTinKhachHang));
             this.lbsuathonngtinkhach = new System.Windows.Forms.Label();
             this.lbshoten = new System.Windows.Forms.Label();
             this.lbsngaysinh = new System.Windows.Forms.Label();
@@ -137,7 +138,7 @@
             this.tb_stenkh.Location = new System.Drawing.Point(233, 184);
             this.tb_stenkh.Name = "tb_stenkh";
             this.tb_stenkh.Size = new System.Drawing.Size(275, 30);
-            this.tb_stenkh.TabIndex = 31;
+            this.tb_stenkh.TabIndex = 2;
             // 
             // tb_sgioitinhkh
             // 
@@ -145,7 +146,7 @@
             this.tb_sgioitinhkh.Location = new System.Drawing.Point(233, 286);
             this.tb_sgioitinhkh.Name = "tb_sgioitinhkh";
             this.tb_sgioitinhkh.Size = new System.Drawing.Size(275, 30);
-            this.tb_sgioitinhkh.TabIndex = 32;
+            this.tb_sgioitinhkh.TabIndex = 4;
             // 
             // tb_ssdtkh
             // 
@@ -154,7 +155,7 @@
             this.tb_ssdtkh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tb_ssdtkh.Name = "tb_ssdtkh";
             this.tb_ssdtkh.Size = new System.Drawing.Size(275, 30);
-            this.tb_ssdtkh.TabIndex = 33;
+            this.tb_ssdtkh.TabIndex = 5;
             // 
             // tb_sdiachikh
             // 
@@ -163,7 +164,7 @@
             this.tb_sdiachikh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tb_sdiachikh.Name = "tb_sdiachikh";
             this.tb_sdiachikh.Size = new System.Drawing.Size(275, 30);
-            this.tb_sdiachikh.TabIndex = 34;
+            this.tb_sdiachikh.TabIndex = 6;
             // 
             // tb_smakh
             // 
@@ -172,7 +173,7 @@
             this.tb_smakh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tb_smakh.Name = "tb_smakh";
             this.tb_smakh.Size = new System.Drawing.Size(275, 30);
-            this.tb_smakh.TabIndex = 35;
+            this.tb_smakh.TabIndex = 1;
             // 
             // btsuattkh
             // 
@@ -183,7 +184,7 @@
             this.btsuattkh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btsuattkh.Name = "btsuattkh";
             this.btsuattkh.Size = new System.Drawing.Size(142, 35);
-            this.btsuattkh.TabIndex = 36;
+            this.btsuattkh.TabIndex = 7;
             this.btsuattkh.Text = "Sửa";
             this.btsuattkh.UseVisualStyleBackColor = false;
             this.btsuattkh.Click += new System.EventHandler(this.btsuattkh_Click);
@@ -197,7 +198,7 @@
             this.btsthoat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btsthoat.Name = "btsthoat";
             this.btsthoat.Size = new System.Drawing.Size(142, 35);
-            this.btsthoat.TabIndex = 37;
+            this.btsthoat.TabIndex = 8;
             this.btsthoat.Text = "Thoát";
             this.btsthoat.UseVisualStyleBackColor = false;
             this.btsthoat.Click += new System.EventHandler(this.btsthoat_Click);
@@ -210,7 +211,7 @@
             this.dtp_sngaysinhkh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtp_sngaysinhkh.Name = "dtp_sngaysinhkh";
             this.dtp_sngaysinhkh.Size = new System.Drawing.Size(275, 30);
-            this.dtp_sngaysinhkh.TabIndex = 38;
+            this.dtp_sngaysinhkh.TabIndex = 3;
             // 
             // panel1
             // 
@@ -245,6 +246,7 @@
             this.ClientSize = new System.Drawing.Size(919, 646);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormSuaThongTinKhachHang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

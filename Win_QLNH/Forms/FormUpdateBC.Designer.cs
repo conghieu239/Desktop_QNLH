@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormUpdateBC));
             this.bt_thoat = new System.Windows.Forms.Button();
             this.bt_sua = new System.Windows.Forms.Button();
             this.dtp_ngaythang = new System.Windows.Forms.DateTimePicker();
@@ -247,6 +248,7 @@
             this.ClientSize = new System.Drawing.Size(897, 667);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormUpdateBC";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormUpdateBC";

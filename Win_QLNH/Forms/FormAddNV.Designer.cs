@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAddNV));
             this.panel1 = new System.Windows.Forms.Panel();
             this.bt_thoat = new System.Windows.Forms.Button();
             this.bt_them = new System.Windows.Forms.Button();
@@ -323,6 +324,7 @@
             this.ClientSize = new System.Drawing.Size(994, 675);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormAddNV";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormAddNV";

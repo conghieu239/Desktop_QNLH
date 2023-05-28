@@ -168,4 +168,60 @@ namespace BLLQLNH
             return DALLTKH.deleteKH(kh);
         }
     }
+    public class BLLTaikhoan
+    {
+        private DATaikhoan dataAccessLayer;
+
+        public BLLTaikhoan()
+        {
+            dataAccessLayer = new DATaikhoan();
+        }
+
+        public bool Login(string tendangnhap, string mkdangnhap)
+        {
+            DTOTaiKhoan user = new DTOTaiKhoan
+            {
+                Tendangnghap = tendangnhap,
+                Mkdangnhap = mkdangnhap
+
+            };
+            if (dataAccessLayer != null)
+            {
+                // Kiểm tra thông tin đăng nhập
+                bool validLogin = dataAccessLayer.VerifyLogin(user);
+                return validLogin;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public bool TenDNKhadung(string tendangnhap)
+        {
+            DTOTaiKhoan tk = new DTOTaiKhoan()
+            {
+                Tendangnghap = tendangnhap
+            };
+            // Kiểm tra tính khả dụng của tên đăng nhập
+            return dataAccessLayer.CheckUsernameAvailability(tk);
+        }
+        public bool RegisterUser(string username, string password)
+        {
+            DTOTaiKhoan user = new DTOTaiKhoan
+            {
+                Tendangnghap = username,
+                Mkdangnhap = password
+            };
+            // Kiểm tra tính khả dụng của tên đăng nhập
+            if (!TenDNKhadung(username))
+            {
+                return false;
+            }
+            else
+            {
+                return dataAccessLayer.RegisterUser(user);
+            }
+        }
+    }
 }
+

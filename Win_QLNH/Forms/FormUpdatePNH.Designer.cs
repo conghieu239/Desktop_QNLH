@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormUpdatePNH));
             this.panel1 = new System.Windows.Forms.Panel();
             this.bt_thoat = new System.Windows.Forms.Button();
             this.bt_sua = new System.Windows.Forms.Button();
@@ -308,6 +309,7 @@
             this.ClientSize = new System.Drawing.Size(1021, 628);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormUpdatePNH";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

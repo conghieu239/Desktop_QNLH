@@ -844,4 +844,59 @@ namespace DALQLNH
             return false;
         }
     }
+    public class DATaikhoan : DBconn
+    {
+        public bool VerifyLogin(DTOTaiKhoan user)
+        {
+            try
+            {
+                conn.Open();
+                string query = "SELECT COUNT(*) FROM DANGNHAP WHERE Tendangnhap = N'" + user.Tendangnghap + "'  AND Mkdangnhap = N'" + user.Mkdangnhap + "'";
+                SqlCommand command = new SqlCommand(query, conn);
+                int count = (int)command.ExecuteScalar();
+                return count > 0;
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+        public bool CheckUsernameAvailability(DTOTaiKhoan user)
+        {
+            try
+            {
+                conn.Open();
+
+                string query = "SELECT COUNT(*) FROM DANGNHAP WHERE Tendangnhap = '" + user.Tendangnghap + "'";
+                SqlCommand command = new SqlCommand(query, conn);
+
+                int count = (int)command.ExecuteScalar();
+
+                return count == 0;
+
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+        public bool RegisterUser(DTOTaiKhoan user)
+        {
+            try
+            {
+                conn.Open();
+                string query = "INSERT INTO DANGNHAP VALUES ('" + user.Tendangnghap + "','" + user.Mkdangnhap + "')";
+                SqlCommand command = new SqlCommand(query, conn);
+
+                int rowsAffected = command.ExecuteNonQuery();
+
+                return rowsAffected > 0;
+
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
+    }
 }

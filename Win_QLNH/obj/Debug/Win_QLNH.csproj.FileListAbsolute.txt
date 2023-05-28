@@ -55,3 +55,6 @@ C:\Users\Admin\Desktop\newQLNH\Win_QLNH\obj\Debug\Win_QLNH.Forms.FormDatMon.reso
 C:\Users\Admin\Desktop\newQLNH\Win_QLNH\obj\Debug\Win_QLNH.Forms.FormPNH.resources
 C:\Users\Admin\Desktop\newQLNH\Win_QLNH\obj\Debug\Win_QLNH.Forms.FormPXH.resources
 C:\Users\Admin\Desktop\newQLNH\Win_QLNH\obj\Debug\Win_QLNH.Forms.FormQLKH.resources
+C:\Users\Admin\Desktop\newQLNH\Win_QLNH\obj\Debug\Win_QLNH.DangKy.resources
+C:\Users\Admin\Desktop\newQLNH\Win_QLNH\obj\Debug\Win_QLNH.DangNhap.resources
+C:\Users\Admin\Desktop\newQLNH\Win_QLNH\obj\Debug\Win_QLNH.GioiThieu.resources
